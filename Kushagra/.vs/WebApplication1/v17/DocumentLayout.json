@@ -1,17 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\2401739\\Videos\\idk\\Kushagra\\",
+  "WorkspaceRootPath": "C:\\Users\\2401739\\Videos\\1-week\\Kushagra\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0A3D4171-82D7-49ED-831C-982B9F0F1524}|WebApplication1\\WebApplication1.csproj|c:\\users\\2401739\\videos\\idk\\kushagra\\webapplication1\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0A3D4171-82D7-49ED-831C-982B9F0F1524}|WebApplication1\\WebApplication1.csproj|c:\\users\\2401739\\videos\\1-week\\kushagra\\webapplication1\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A3D4171-82D7-49ED-831C-982B9F0F1524}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A3D4171-82D7-49ED-831C-982B9F0F1524}|WebApplication1\\WebApplication1.csproj|c:\\users\\2401739\\videos\\idk\\kushagra\\webapplication1\\webapplication1.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "AbsoluteMoniker": "D:0:0:{0A3D4171-82D7-49ED-831C-982B9F0F1524}|WebApplication1\\WebApplication1.csproj|c:\\users\\2401739\\videos\\1-week\\kushagra\\webapplication1\\model\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A3D4171-82D7-49ED-831C-982B9F0F1524}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\model\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A3D4171-82D7-49ED-831C-982B9F0F1524}|WebApplication1\\WebApplication1.csproj|c:\\users\\2401739\\videos\\1-week\\kushagra\\webapplication1\\webapplication1.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{0A3D4171-82D7-49ED-831C-982B9F0F1524}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\webapplication1.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A3D4171-82D7-49ED-831C-982B9F0F1524}|WebApplication1\\WebApplication1.csproj|c:\\users\\2401739\\videos\\idk\\kushagra\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0A3D4171-82D7-49ED-831C-982B9F0F1524}|WebApplication1\\WebApplication1.csproj|c:\\users\\2401739\\videos\\1-week\\kushagra\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A3D4171-82D7-49ED-831C-982B9F0F1524}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,42 +34,53 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\2401739\\Videos\\1-week\\Kushagra\\WebApplication1\\model\\Book.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\model\\Book.cs",
+              "ToolTip": "C:\\Users\\2401739\\Videos\\1-week\\Kushagra\\WebApplication1\\model\\Book.cs",
+              "RelativeToolTip": "WebApplication1\\model\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T09:02:20.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\2401739\\Videos\\idk\\Kushagra\\WebApplication1\\Controllers\\WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\2401739\\Videos\\1-week\\Kushagra\\WebApplication1\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\2401739\\Videos\\idk\\Kushagra\\WebApplication1\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\2401739\\Videos\\1-week\\Kushagra\\WebApplication1\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "WebApplication1\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAowCUAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAIwAYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-01T08:13:29.186Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\2401739\\Videos\\idk\\Kushagra\\WebApplication1\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\2401739\\Videos\\1-week\\Kushagra\\WebApplication1\\Program.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
-              "ToolTip": "C:\\Users\\2401739\\Videos\\idk\\Kushagra\\WebApplication1\\Program.cs",
+              "ToolTip": "C:\\Users\\2401739\\Videos\\1-week\\Kushagra\\WebApplication1\\Program.cs",
               "RelativeToolTip": "WebApplication1\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T08:08:35.762Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T08:08:35.762Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "WebApplication1.http",
-              "DocumentMoniker": "C:\\Users\\2401739\\Videos\\idk\\Kushagra\\WebApplication1\\WebApplication1.http",
+              "DocumentMoniker": "C:\\Users\\2401739\\Videos\\1-week\\Kushagra\\WebApplication1\\WebApplication1.http",
               "RelativeDocumentMoniker": "WebApplication1\\WebApplication1.http",
-              "ToolTip": "C:\\Users\\2401739\\Videos\\idk\\Kushagra\\WebApplication1\\WebApplication1.http",
+              "ToolTip": "C:\\Users\\2401739\\Videos\\1-week\\Kushagra\\WebApplication1\\WebApplication1.http",
               "RelativeToolTip": "WebApplication1\\WebApplication1.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-04-01T08:06:13.951Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T08:06:13.951Z"
             }
           ]
         }
