@@ -1,12 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\2401710\\Videos\\LazyDevs_book_Shop\\Pratham\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\2401673\\Videos\\LazyDevs_book_Shop\\Pratham\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1607205F-1DE5-4848-B548-73DF9D184ED4}|EmptyWebApi2.csproj|c:\\users\\2401673\\videos\\lazydevs_book_shop\\pratham\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1607205F-1DE5-4848-B548-73DF9D184ED4}|EmptyWebApi2.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\2401673\\Videos\\LazyDevs_book_Shop\\Pratham\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\2401673\\Videos\\LazyDevs_book_Shop\\Pratham\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T10:38:22.301Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

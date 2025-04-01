@@ -103,9 +103,11 @@ C:\Users\2401739\Videos\1-week\Kushagra\WebApplication1\obj\Debug\net8.0\staticw
 C:\Users\2401739\Videos\1-week\Kushagra\WebApplication1\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebApplication1.props
 C:\Users\2401739\Videos\1-week\Kushagra\WebApplication1\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebApplication1.props
 C:\Users\2401739\Videos\1-week\Kushagra\WebApplication1\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\2401739\Videos\1-week\Kushagra\WebApplication1\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\2401739\Videos\1-week\Kushagra\WebApplication1\obj\Debug\net8.0\WebAppli.7D14BD69.Up2Date
 C:\Users\2401739\Videos\1-week\Kushagra\WebApplication1\obj\Debug\net8.0\WebApplication1.genruntimeconfig.cache
 C:\Users\2401739\Videos\1-week\Kushagra\WebApplication1\obj\Debug\net8.0\ref\WebApplication1.dll
+<<<<<<< HEAD
 C:\Users\2401739\Videos\1-week\Kushagra\WebApplication1\bin\Debug\net8.0\Microsoft.Data.Sqlite.dll
 C:\Users\2401739\Videos\1-week\Kushagra\WebApplication1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\2401739\Videos\1-week\Kushagra\WebApplication1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -267,3 +269,5 @@ C:\Users\2401739\Videos\1-week\Kushagra\WebApplication1\bin\Debug\net8.0\runtime
 C:\Users\2401739\Videos\1-week\Kushagra\WebApplication1\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\2401739\Videos\1-week\Kushagra\WebApplication1\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\2401739\Videos\1-week\Kushagra\WebApplication1\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+=======
+>>>>>>> 8a56dafdd214f89bccdbbe92aec2f2d2c40a6e46
