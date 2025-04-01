@@ -1,26 +1,16 @@
 [
   {
-    "ContainingType": "BookshopApi.Controllers.BooksController",
+    "ContainingType": "WebApplication1.Controllers.BooksController",
     "Method": "GetBooks",
     "RelativePath": "Books",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebApplication1.Models.Book, WebApplication1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
-    "ContainingType": "BookshopApi.Controllers.BooksController",
+    "ContainingType": "WebApplication1.Controllers.BooksController",
     "Method": "CreateBook",
     "RelativePath": "Books",
     "HttpMethod": "POST",
@@ -33,21 +23,11 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "WebApplication1.Models.Book",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
-    "ContainingType": "BookshopApi.Controllers.BooksController",
-    "Method": "GetBook",
+    "ContainingType": "WebApplication1.Controllers.BooksController",
+    "Method": "GetBookById",
     "RelativePath": "Books/{id}",
     "HttpMethod": "GET",
     "IsController": true,
@@ -59,20 +39,10 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "WebApplication1.Models.Book",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
-    "ContainingType": "BookshopApi.Controllers.BooksController",
+    "ContainingType": "WebApplication1.Controllers.BooksController",
     "Method": "UpdateBook",
     "RelativePath": "Books/{id}",
     "HttpMethod": "PUT",
@@ -93,7 +63,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "BookshopApi.Controllers.BooksController",
+    "ContainingType": "WebApplication1.Controllers.BooksController",
     "Method": "DeleteBook",
     "RelativePath": "Books/{id}",
     "HttpMethod": "DELETE",
