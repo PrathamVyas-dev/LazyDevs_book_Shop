@@ -1,6 +1,10 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using WebApplication1.Models;
+using WebApplication1.Data;
+using System.Collections.Generic;
+using System.Linq;
+
 namespace WebApplication1.Controllers
 {
     [ApiController]
@@ -45,48 +49,48 @@ namespace WebApplication1.Controllers
         }
     }
 }
-
-namespace WebApplication1.Controllers
+namespace BookshopApi.Controllers
 {
     [ApiController]
     [Route("[controller]")]
     public class BooksController : ControllerBase
     {
-        private static List<Book> books = new List<Book>
+        private readonly BookshopContext _context;
+
+        public BooksController(BookshopContext context)
         {
-            new Book { Id = 1, Title = "Book1", Author = "Author1", Price = 9.99M },
-            new Book { Id = 2, Title = "Book2", Author = "Author2", Price = 19.99M }
-        };
+            _context = context;
+        }
 
         [HttpGet]
-        public IActionResult GetBooks()
+        public ActionResult<IEnumerable<Book>> GetBooks()
         {
-            return Ok(books);
+            return _context.Books.ToList();
         }
 
         [HttpGet("{id}")]
-        public IActionResult GetBookById(int id)
+        public ActionResult<Book> GetBook(int id)
         {
-            var book = books.Find(b => b.Id == id);
+            var book = _context.Books.Find(id);
             if (book == null)
             {
                 return NotFound();
             }
-            return Ok(book);
+            return book;
         }
 
         [HttpPost]
-        public IActionResult CreateBook([FromBody] Book book)
+        public ActionResult<Book> CreateBook(Book book)
         {
-            book.Id = books.Count + 1;
-            books.Add(book);
-            return CreatedAtAction(nameof(GetBookById), new { id = book.Id }, book);
+            _context.Books.Add(book);
+            _context.SaveChanges();
+            return CreatedAtAction(nameof(GetBook), new { id = book.Id }, book);
         }
 
         [HttpPut("{id}")]
-        public IActionResult UpdateBook(int id, [FromBody] Book updatedBook)
+        public IActionResult UpdateBook(int id, Book updatedBook)
         {
-            var book = books.Find(b => b.Id == id);
+            var book = _context.Books.Find(id);
             if (book == null)
             {
                 return NotFound();
@@ -94,18 +98,20 @@ namespace WebApplication1.Controllers
             book.Title = updatedBook.Title;
             book.Author = updatedBook.Author;
             book.Price = updatedBook.Price;
+            _context.SaveChanges();
             return NoContent();
         }
 
         [HttpDelete("{id}")]
         public IActionResult DeleteBook(int id)
         {
-            var book = books.Find(b => b.Id == id);
+            var book = _context.Books.Find(id);
             if (book == null)
             {
                 return NotFound();
             }
-            books.Remove(book);
+            _context.Books.Remove(book);
+            _context.SaveChanges();
             return NoContent();
         }
     }
